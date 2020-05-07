@@ -18,7 +18,7 @@ else
     sudo mkdir /usr/share/themes/Sunset-Dark-Grey-Magenta
     cd /tmp
     wget https://github.com/Henryws/Sunset-Dark-Grey-Magenta/raw/master/oomox-Sunset-Dark-Grey-Magenta.tar.gz
-    sudo tar xvzf oomox-Sunset-Dark-Grey-Magenta.tar.gz -C $PACKAGE
+    sudo tar xvzf oomox-Sunset-Dark-Grey-Magenta.tar.gz -C /usr/share/themes/Sunset-Dark-Grey-Magenta
 
     echo Done
 fi
