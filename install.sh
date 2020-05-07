@@ -1,9 +1,7 @@
 #!/bin/bash
-cd /usr/share/themes
+cd /tmp
 
 git clone https://github.com/Henryws/Sunset-Dark-Grey-Magenta.git
-
-cd Sunset-Dark-Grey-Magenta
 
 sudo tar xvzf oomox-Sunset-Dark-Grey-Magenta.tar.gz
 
