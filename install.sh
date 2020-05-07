@@ -3,7 +3,7 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 #[major].[minor].[release].[build]
-echo 'installer version 0.0.1.34'
+echo 'installer version 0.0.1.37'
 
 cd /usr/share/themes
 
