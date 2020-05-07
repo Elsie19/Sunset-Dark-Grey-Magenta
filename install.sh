@@ -1,5 +1,5 @@
 #!/bin/bash
-echo 'version 0.0.1'
+echo 'installer version 0.0.1'
 
 cd /tmp
 
