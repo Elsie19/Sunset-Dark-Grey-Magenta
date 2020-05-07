@@ -45,12 +45,9 @@ else
     echo "moved theme file index.theme"
 
     echo Done moving files/directories
-    
+    echo 'Applying theme'
+    gsettings set org.gnome.desktop.interface gtk-theme 'Sunset-Dark-Grey-Magenta';
+
 fi
-read -p "Apply the theme (y/n)?" CONT
-if [ "$CONT" = "y" ]; then
-  gsettings set org.gnome.desktop.interface gtk-theme 'Sunset-Dark-Grey-Magenta';
-else
-  exit 0;
-fi
+
 exit 0
