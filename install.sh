@@ -5,7 +5,7 @@ NC='\033[0m' # No Color
 
 printf "Installer version ${RED}0.0.1\n"
 
-cd /tmp
+cd /usr/share/themes
 
 git clone https://github.com/Henryws/Sunset-Dark-Grey-Magenta.git
 
@@ -18,7 +18,7 @@ else
     echo "Installing to $PACKAGE ..."
     #sudo mkdir /usr/share/themes/oomox-Sunset-Dark-Grey-Magenta
     
-    tar xvzf Sunset-Dark-Grey-Magenta.tar.gz $PACKAGE
+    tar xvzf oomox-Sunset-Dark-Grey-Magenta.tar.gz
 
     echo Done
 fi
