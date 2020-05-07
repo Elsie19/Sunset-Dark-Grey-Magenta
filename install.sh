@@ -1,4 +1,6 @@
 #!/bin/bash
+echo 'version 0.0.1'
+
 cd /tmp
 
 git clone https://github.com/Henryws/Sunset-Dark-Grey-Magenta.git
