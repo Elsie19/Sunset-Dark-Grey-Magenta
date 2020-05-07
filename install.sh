@@ -6,7 +6,6 @@ echo 'installer version 0.0.002'
 
 cd /usr/share/themes
 
-git clone https://github.com/Henryws/Sunset-Dark-Grey-Magenta.git
 
 PACKAGE="/usr/share/themes/oomox-Sunset-Dark-Grey-Magenta/"
 
@@ -15,8 +14,9 @@ if [[ -d $PACKAGE ]]; then
     exit 1
 else
     echo "Installing to $PACKAGE ..."
-    #sudo mkdir /usr/share/themes/oomox-Sunset-Dark-Grey-Magenta
-    
+    sudo mkdir /usr/share/oomox-Sunset-Dark-Grey-Magenta
+    cd oomox-Sunset-Dark-Grey-Magenta
+    git clone https://github.com/Henryws/Sunset-Dark-Grey-Magenta.git
     tar xvzf oomox-Sunset-Dark-Grey-Magenta.tar.gz
 
     echo Done
