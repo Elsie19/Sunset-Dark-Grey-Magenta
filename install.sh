@@ -15,7 +15,7 @@ if [[ -d $PACKAGE ]]; then
 else
     echo "Installing to $PACKAGE ..."
     sudo mkdir /usr/share/oomox-Sunset-Dark-Grey-Magenta
-    cd oomox-Sunset-Dark-Grey-Magenta
+    cd Sunset-Dark-Grey-Magenta
     git clone https://github.com/Henryws/Sunset-Dark-Grey-Magenta.git
     tar xvzf oomox-Sunset-Dark-Grey-Magenta.tar.gz
 
