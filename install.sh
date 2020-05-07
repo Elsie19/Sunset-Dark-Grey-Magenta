@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /dev/shm
+cd /usr/share/themes
 
 git clone https://github.com/Henryws/Sunset-Dark-Grey-Magenta.git
 
@@ -18,6 +18,9 @@ else
     sudo mv oomox-Sunset-Dark-Grey-Magenta $PACKAGE
 
     echo Done
+    cd /usr/share/themes
+    rm -rf Sunet-Dark-Grey-Magenta
+
 fi
 
 exit 0
