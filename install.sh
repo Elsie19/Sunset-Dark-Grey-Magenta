@@ -1,5 +1,9 @@
 #!/bin/bash
-echo 'installer version 0.0.1'
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+
+
+printf "Installer version ${RED}0.0.1\n"
 
 cd /tmp
 
