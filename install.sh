@@ -3,7 +3,7 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 #[major].[minor].[release].[build]
-echo 'installer version 1.0.1.1'
+echo 'installer version 1.0.1.3'
 
 cd /usr/share/themes
 
@@ -43,7 +43,7 @@ else
     echo "moved theme file COPYING"
     sudo mv index.theme /usr/share/themes/Sunset-Dark-Grey-Magenta
     echo "moved theme file index.theme"
-
+    chmod -R 775 /usr/share/themes/Sunset-Dark-Grey-Magenta
     echo Done moving files/directories
     echo 'Applying theme'
     gsettings set org.gnome.desktop.interface gtk-theme 'Sunset-Dark-Grey-Magenta' && gsettings set org.gnome.desktop.wm.preferences theme 'Sunset-Dark-Grey-Magenta';
