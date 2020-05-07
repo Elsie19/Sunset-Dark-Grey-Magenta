@@ -3,7 +3,7 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 #[major].[minor].[release].[build]
-echo 'installer version 0.0.1.38'
+echo 'installer version 0.0.2.0'
 
 cd /usr/share/themes
 
@@ -19,7 +19,30 @@ else
     cd /tmp
     wget https://github.com/Henryws/Sunset-Dark-Grey-Magenta/raw/master/oomox-Sunset-Dark-Grey-Magenta.tar.gz
     sudo tar xvzf oomox-Sunset-Dark-Grey-Magenta.tar.gz
-    sudo mv /oomox-Sunset-Dark-Grey-Magenta/* /usr/share/themes/Sunset-Dark-Grey-Magenta
+    sudo mv chrome /usr/share/themes/Sunset-Dark-Grey-Magenta
+    echo "moved theme directory chrome"
+    sudo mv cinnamon /usr/share/themes/Sunset-Dark-Grey-Magenta
+    echo "moved theme directory cinnamon"
+    sudo mv gnome-shell /usr/share/themes/Sunset-Dark-Grey-Magenta
+    echo "moved theme directory gnome-shell"
+    sudo mv gtk-2.0 /usr/share/themes/Sunset-Dark-Grey-Magenta
+    echo "moved theme directory gtk-2.0"
+    sudo mv gtk-3.0 /usr/share/themes/Sunset-Dark-Grey-Magenta
+    echo "moved theme directory gtk-3.0"
+    sudo mv gtk-assets /usr/share/themes/Sunset-Dark-Grey-Magenta
+    echo "moved theme directory gtk-assets"
+    sudo mv gtk-icons /usr/share/themes/Sunset-Dark-Grey-Magenta
+    echo "moved theme directory gtk-icons"
+    sudo mv metacity-1 /usr/share/themes/Sunset-Dark-Grey-Magenta
+    echo "moved theme directory metacity-1"
+    sudo mv unity /usr/share/themes/Sunset-Dark-Grey-Magenta
+    echo "moved theme directory unity"
+    sudo mv xfwm4 /usr/share/themes/Sunset-Dark-Grey-Magenta
+    echo "moved theme directory xfwm4"
+    sudo mv COPYING /usr/share/themes/Sunset-Dark-Grey-Magenta
+    echo "moved theme file COPYING"
+    sudo mv index.theme /usr/share/themes/Sunset-Dark-Grey-Magenta
+    echo "moved theme file index.theme"
 
     echo Done
 fi
