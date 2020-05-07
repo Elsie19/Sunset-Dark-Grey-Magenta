@@ -17,7 +17,8 @@ if [[ -d $PACKAGE ]]; then
 else
     echo "Installing to $PACKAGE ..."
     sudo mkdir /usr/share/themes/oomox-Sunset-Dark-Grey-Magenta
-    sudo tar xvzf oomox-Sunset-Dark-Grey-Magenta.tar.gz $PACKAGE
+    cd Sunset-Dark-Grey-Magenta
+    tar xvzf oomox-Sunset-Dark-Grey-Magenta.tar.gz $PACKAGE
 
     echo Done
 fi
