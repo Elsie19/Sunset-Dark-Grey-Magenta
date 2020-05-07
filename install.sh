@@ -17,7 +17,7 @@ else
     echo "Installing to $PACKAGE ..."
     sudo mkdir /usr/share/themes/Sunset-Dark-Grey-Magenta
     cd /tmp
-    git clone https://github.com/Henryws/oomox-Sunset-Dark-Grey-Magenta.git
+    wget https://github.com/Henryws/oomox-Sunset-Dark-Grey-Magenta/oomox-Sunset-Dark-Grey-Magenta.tar.gz
     sudo tar xvzf oomox-Sunset-Dark-Grey-Magenta.tar.gz $PACKAGE
 
     echo Done
