@@ -3,7 +3,7 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 #[major].[minor].[release].[build]
-echo 'installer version 0.0.1.31'
+echo 'installer version 0.0.1.33'
 
 cd /usr/share/themes
 
@@ -17,7 +17,7 @@ else
     echo "Installing to $PACKAGE ..."
     sudo mkdir /usr/share/themes/Sunset-Dark-Grey-Magenta
     cd /tmp
-    wget https://github.com/Henryws/oomox-Sunset-Dark-Grey-Magenta/oomox-Sunset-Dark-Grey-Magenta.tar.gz
+    wget https://github.com/Henryws/Sunset-Dark-Grey-Magenta/raw/master/oomox-Sunset-Dark-Grey-Magenta.tar.gz
     sudo tar xvzf oomox-Sunset-Dark-Grey-Magenta.tar.gz $PACKAGE
 
     echo Done
