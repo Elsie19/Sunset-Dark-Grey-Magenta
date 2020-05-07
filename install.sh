@@ -5,7 +5,7 @@ git clone https://github.com/Henryws/Sunset-Dark-Grey-Magenta.git
 
 cd Sunset-Dark-Grey-Magenta
 
-tar xvzf oomox-Sunset-Dark-Grey-Magenta.tar.gz
+sudo tar xvzf oomox-Sunset-Dark-Grey-Magenta.tar.gz
 
 PACKAGE="/usr/share/themes/oomox-Sunset-Dark-Grey-Magenta/"
 
