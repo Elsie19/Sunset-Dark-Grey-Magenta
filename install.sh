@@ -2,12 +2,12 @@
 RED='\033[0;31m'
 NC='\033[0m' # No Color
 
-echo 'installer version 0.0.006'
+echo 'installer version 0.0.007'
 
 cd /usr/share/themes
 
 
-PACKAGE="/usr/share/themes/oomox-Sunset-Dark-Grey-Magenta/"
+PACKAGE="/usr/share/themes/Sunset-Dark-Grey-Magenta/"
 
 if [[ -d $PACKAGE ]]; then
     echo "Already installed, to re-install remove the $PACKAGE dir"
